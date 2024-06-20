@@ -1,0 +1,148 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block mi_contenedor %}
+<style>
+        body {background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))}
+</style>
+    <div class="row row-cols-1 row-cols-md-2 g-4 pt-5">
+        <div class="col mx-auto">
+            <div class="card bg-dark text-white-50" style="width: 35rem;">
+                <h6 class="card-subtitle pt-3 text-center text-white">REGISTRO DE INMUEBLE</h6>
+                <div class="card-body">
+                    <form action="" method="POST">{% csrf_token %}
+                        <div class="form-group">
+                        {% for i in inm %}
+                            <label for="id" class="text_white-50">Id</label><br>
+                            <input type="text"
+                                    class="form-control"
+                                   name="id"
+                                   disabled
+                                   value="{{i.id}}">
+
+                            <label for="nombre" class="text_white-50">Nombre</label><br>
+                            <input type="text"
+                                    class="form-control"
+                                   name="nombre"
+                                   value="{{i.nombre}}">
+
+                            <label for="descripcion" class="text_white-50">Descripción</label><br>
+                            <input type="text"
+                                    class="form-control"
+                                   name="descripcion"
+                                   disabled
+                                   value="{{i.descripcion}}">
+
+                            <label for="construido" class="text_white-50">Área Construida</label><br>
+                            <input type="text"
+                                    class="form-control"
+                                   name="construido"
+                                   disabled
+                                   value="{{i.construido}}">
+
+                            <label for="totales" class="text_white-50">Área Total</label><br>
+                            <input type="text"
+                                    class="form-control"
+                                   name="totales"
+                                   disabled
+                                   value="{{i.totales}}">
+
+                            <label for="estacionamiento" class="text_white-50">Estacionamiento</label><br>
+                              <input type="text"
+                                    class="form-control"
+                                     name="estacionamiento"
+                                     disabled
+                                     value="{{i.estacionamiento}}">
+
+                            <label for="habitaciones" class="text_white-50">Habitaciones</label><br>
+                            <input type="text"
+                                    class="form-control"
+                                    name="habitaciones"
+                                    disabled
+                                    value="{{i.habitaciones}}">
+
+                            <label for="banios" class="text_white-50">Baños</label><br>
+                              <input type="text"
+                                    class="form-control"
+                                     name="banios"
+                                     disabled
+                                    value="{{i.banios}}">
+
+                            <label for="direccion" class="text_white-50">Direccion</label><br>
+                            <input type="text"
+                                    class="form-control"
+                                    name="direccion"
+                                    disabled
+                                    value="{{i.direccion}}">
+
+                            <label for="comuna" class="text_white-50">Comuna</label><br>
+                            <input type="text"
+                                    class="form-control"
+                                    name="comuna"
+                                    disabled
+                                    value="{{i.comuna}}">
+
+                            <label for="inmueble_tipo" class="text_white-50">Tipo</label><br>
+                            <input type="text"
+                                    class="form-control"
+                                    name="inmueble_tipo"
+                                    disabled
+                                    value="{{i.inmueble_tipo}}">
+
+                            <label for="arriendo_mes" class="text_white-50">Arriendo Mensual</label><br>
+                            <input type="text"
+                                    class="form-control"
+                                    name="arriendo_mes"
+                                    disabled
+                                    value="{{i.arriendo_mes}}">
+
+                            <input type="hidden"
+                                    class="form-control"
+                                    name="activo"
+                                    value="{{i.activo}}">
+
+                            <input type="hidden"
+                                    class="form-control"
+                                    name="creado_por"
+                                    value={{i.creado_por}}>
+                        {% endfor %}
+                        </div>
+                    </form>
+                      <div class="row p-3">
+                        <div class="col-1"></div>
+                        {% for group in request.user.groups.all %}
+                        {% if group.name == 'Arrendatario' %}
+                        <a class="btn btn-outline-light btn-lg px-5 col-4 fs-6" data-bs-toggle="modal" data-bs-target="#modal_add_image">Agregar Imagen</a>
+                        {% endif %}
+                        {% endfor %}
+                        {% for group in request.user.groups.all %}
+                        {% if group.name == 'Arrendador' %}
+                        <div class="col-1"></div>
+                        <a href="{% url 'arrendar_inm' %}" class="btn btn-outline-light btn-lg px-5 col-5 fs-6" onclick="return confirm('Estás seguro que deseas arrendar el inmueble?');">Arrendar</a>
+                        {% endif %}
+                        {% endfor %}
+                        </div>
+                        <div class="col-1"></div>
+                        <a class="btn btn-outline-light btn-lg px-5 col-4 fs-6" href="{% url 'home' %}">Volver</a>
+                  </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-4 g-4 pt-5 pb-3">
+                {% for d in img %}
+            <div class="col">
+                <div class="card h-100" style="width: 18rem;">
+                <img src="{{ d.image }}" class="card-img-top" alt="{{ i.titulo }}" height="200" width="200">
+                        {% for group in request.user.groups.all %}
+                        {% if group.name == 'Arrendatario' %}
+                        <div class="card-body">
+                        <p class="d-none">{{ d.id }}</p>
+                        <a href="{% url 'delete_img' %}" class="btn btn-primary img_cook" onclick="return confirm('Estás seguro que deseas eliminar la imagen?');">Eliminar</a>
+                        </div>
+                        {% endif %}
+                        {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+{% endblock %}

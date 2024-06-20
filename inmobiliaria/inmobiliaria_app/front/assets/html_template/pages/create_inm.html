@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block mi_contenedor %}
+<style>
+  body {background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))}
+</style>
+<div class="row row-cols-1 row-cols-md-2 g-4 pt-5">
+  <div class="col mx-auto">
+      <div class="card bg-dark text-white-50" style="width: 35rem;">
+                <h6 class="card-subtitle pt-3 text-center text-white">REGISTRO DE INMUEBLE</h6>
+                <div class="card-body">
+                    <form action="" method="POST" enctype='multipart/form-data'>{% csrf_token %}
+                          {{ form|crispy }}
+                          {{ form1|crispy }}
+                        <div class="row">
+                          <div class="col-1"></div>
+                          <button type="submit" class="btn btn-outline-light btn-lg px-5 col-4 gap-2  fs-6">Registrar</button>
+                          <div class="col-1"></div>
+                        <a class="btn btn-outline-light btn-lg px-5 col-4 gap-2  fs-6" href="{% url 'home' %}">Volver</a>
+                      </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

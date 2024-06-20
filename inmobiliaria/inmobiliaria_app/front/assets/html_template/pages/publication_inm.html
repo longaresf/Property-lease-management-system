@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block mi_contenedor %}
+<style>
+  body {background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))}
+</style>
+                <div class="row row-cols-1 row-cols-md-4 g-4 pt-5">
+                  {% for i in inm %}
+                  <div class="col">
+                  <div class="card h-100" style="width: 18rem;">
+                    <img src="{{ i.img_inm.first.image.url }}" class="card-img-top" alt="{{ i.nombre }}" height="200" width="200">
+                    <div class="card-body">
+                      <h5 class="card-title">{{i.nombre}}</h5>
+                      <p class="card-text">{{i.direccion}}, {{i.comuna.nombre}}</p>
+                      <p class="d-none">{{ i.id }}</p>
+                      <a href="{% url 'update_inm' %}" class="btn btn-primary inm_cook fs-6" onclick="return confirm('Estás seguro que deseas modificar el registro?');">Editar</a>
+                      <a href="{% url 'delete_inm' %}" class="btn btn-primary inm_cook_2 fs-6" onclick="return confirm('Estás seguro que deseas eliminar el registro?');">Borrar</a>
+                      <a class="btn btn-primary inm_cook_3 fs-6" data-bs-toggle="modal" data-bs-target="#modal_add_image">Imagen</a>
+                    </div>
+                  </div>
+              </div>
+              {% endfor %}
+            </div>
+{% endblock %}

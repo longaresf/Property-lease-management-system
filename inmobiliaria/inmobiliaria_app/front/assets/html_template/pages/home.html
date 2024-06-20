@@ -1,0 +1,70 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block mi_contenedor %}
+<style>
+    .fade-in-text {animation: fadeIntext 10s;}
+        @keyframes fadeIntext {
+        0% { opacity: 0; }
+        100% { opacity: 1; }
+        }
+    video {height: 700px;}
+    section {background: radial-gradient(#607d8b 15%, #000000 100%);}
+    form {margin-left: 50px;}
+    .asteriskField {display: none;}
+    .labels {font-weight: bold;}
+</style>
+<section id="video-init" class="pt-4">
+    <div class="position-relative">
+        <div class="row position-absolute col-12 text-center">
+            <p class="fade-in-text text-white fs-4">Bienvenido a<br><b>INMOBILIARIA FRANCISCO</b><br>Arriendo de Inmuebles<br>Precios Competitivos<br>Zonas exclusivas</p>
+        </div>
+        <div class="row">
+            <video class="video" autoplay muted loop>
+                <source src="/media/3410663-sd_640_360_30fps.mp4" type="video/mp4" >
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+</section>
+
+<section id="search" class="pt-3">
+  <div class="row row-cols-1 row-cols-md-4">
+    <div class="col mx-auto">
+        <h6 class="card-subtitle pb-3 pb-1 text-center text-white">BUSCAR INMUEBLE</h6>
+        <form action="" method="POST">{% csrf_token %}
+            {{ form|crispy }}
+
+            <button class="btn btn-secondary col-8 ms-5" type="submit">Buscar</button>
+
+        </form>
+    </div>
+</div>
+</section>
+
+<section id="gallery" class="pt-3">
+    <div class="row row-cols-2 row-cols-md-3 g-4 pt-5">
+       {% for i in inm %}
+                <div id="carouselExampleIndicators" class="carousel slide"  style="width: 18rem;">
+                    <div class="carousel-inner card" >
+                      <div class="carousel-item active">
+                        <img src="{{ i.img_inm.first.image.url }}" class="d-block w-100" alt="{{ i.nombre }}" height="200" width="200">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="{{ i.img_inm.last.image.url }}" class="d-block w-100" alt="{{ i.nombre }}" height="200" width="200">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="{{ i.img_inm.image.url }}" class="d-block w-100" alt="{{ i.nombre }}" height="200" width="200">
+                      </div>
+                    </div>
+                    <div class="card-body text-white text-center">
+                        <h5 class="card-title">{{i.nombre}}</h5>
+                        <p class="card-text">{{i.direccion}}, {{i.comuna.nombre}}</p>
+                        <p class="card-text">{{i.descripcion}}</p>
+                        <p class="d-none">{{ i.id }}</p>
+                        <a class="btn btn-primary inm_cook" href="{% url 'perfil_inm' %}">Ver</a>
+                    </div>
+                  </div>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}

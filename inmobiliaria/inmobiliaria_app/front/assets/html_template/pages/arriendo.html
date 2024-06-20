@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block mi_contenedor %}
+<style>
+    body {background: linear-gradient(to right, rgba(106, 17, 203, 1), rgba(37, 117, 252, 1))}
+</style>
+            <h6 class="card-subtitle pt-3 text-center text-white">REGISTRO DE ARRIENDOS</h6>
+            <div class="row row-cols-1 row-cols-md-4 g-4 pt-5 pb-3">
+            {% for i in arriendos %}
+                <div class="col">
+                    <div class="card h-100" style="width: 18rem;">
+                    <img src="{{ i.inmueble.img_inm.first.image.url }}" class="card-img-top" alt="{{ i.titulo }}" height="200" width="200">
+                        <div class="card-body">
+                        <h5 class="card-title">{{i.inmueble.nombre}}</h5>
+                        <p class="card-text">{{i.inmueble.direccion}}, {{i.inmueble.comuna.nombre}}</p>
+                        <p class="card-text">Estado: {{i.estado}}</p>
+                        <p class="card-text">Arrendador: {{i.arrendador.nombres}} {{i.arrendador.apellidos}}</p>
+                        <p class="d-none">{{ i.inmueble.id }}</p>
+                        <a class="btn btn-primary inm_cook" data-bs-toggle="modal" data-bs-target="#modal_estado_prop_arrendador">Estado Arrendador</a>
+                        </div>
+                    </div>
+                </div>
+{% endfor %}
+            </div>
+{% endblock %}
