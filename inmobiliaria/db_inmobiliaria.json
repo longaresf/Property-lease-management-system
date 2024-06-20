@@ -1,0 +1,4764 @@
+[
+{
+  "model": "inmobiliaria_app.region",
+  "pk": 1,
+  "fields": {
+    "nombre": "Tarapacá"
+  }
+},
+{
+  "model": "inmobiliaria_app.region",
+  "pk": 2,
+  "fields": {
+    "nombre": "Antofagasta"
+  }
+},
+{
+  "model": "inmobiliaria_app.region",
+  "pk": 3,
+  "fields": {
+    "nombre": "Atacama"
+  }
+},
+{
+  "model": "inmobiliaria_app.region",
+  "pk": 4,
+  "fields": {
+    "nombre": "Coquimbo"
+  }
+},
+{
+  "model": "inmobiliaria_app.region",
+  "pk": 5,
+  "fields": {
+    "nombre": "Valparaíso"
+  }
+},
+{
+  "model": "inmobiliaria_app.region",
+  "pk": 6,
+  "fields": {
+    "nombre": "Región del Libertador Gral. Bernardo O'Higgins"
+  }
+},
+{
+  "model": "inmobiliaria_app.region",
+  "pk": 7,
+  "fields": {
+    "nombre": "Región del Maule"
+  }
+},
+{
+  "model": "inmobiliaria_app.region",
+  "pk": 8,
+  "fields": {
+    "nombre": "Región del Biobío"
+  }
+},
+{
+  "model": "inmobiliaria_app.region",
+  "pk": 9,
+  "fields": {
+    "nombre": "Región de la Araucanía"
+  }
+},
+{
+  "model": "inmobiliaria_app.region",
+  "pk": 10,
+  "fields": {
+    "nombre": "Región de Los Lagos"
+  }
+},
+{
+  "model": "inmobiliaria_app.region",
+  "pk": 11,
+  "fields": {
+    "nombre": "Región Aisén del Gral. Carlos Ibáñez del Campo"
+  }
+},
+{
+  "model": "inmobiliaria_app.region",
+  "pk": 12,
+  "fields": {
+    "nombre": "Región de Magallanes y de la Antártica Chilena"
+  }
+},
+{
+  "model": "inmobiliaria_app.region",
+  "pk": 13,
+  "fields": {
+    "nombre": "Región Metropolitana de Santiago"
+  }
+},
+{
+  "model": "inmobiliaria_app.region",
+  "pk": 14,
+  "fields": {
+    "nombre": "Región de Los Ríos"
+  }
+},
+{
+  "model": "inmobiliaria_app.region",
+  "pk": 15,
+  "fields": {
+    "nombre": "Arica y Parinacota"
+  }
+},
+{
+  "model": "inmobiliaria_app.region",
+  "pk": 16,
+  "fields": {
+    "nombre": "Región de Ñuble"
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 11,
+  "fields": {
+    "nombre": "Iquique",
+    "region": 1
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 14,
+  "fields": {
+    "nombre": "Tamarugal",
+    "region": 1
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 21,
+  "fields": {
+    "nombre": "Antofagasta",
+    "region": 2
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 22,
+  "fields": {
+    "nombre": "El Loa",
+    "region": 2
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 23,
+  "fields": {
+    "nombre": "Tocopilla",
+    "region": 2
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 31,
+  "fields": {
+    "nombre": "Copiapó",
+    "region": 3
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 32,
+  "fields": {
+    "nombre": "Chañaral",
+    "region": 3
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 33,
+  "fields": {
+    "nombre": "Huasco",
+    "region": 3
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 41,
+  "fields": {
+    "nombre": "Elqui",
+    "region": 4
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 42,
+  "fields": {
+    "nombre": "Choapa",
+    "region": 4
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 43,
+  "fields": {
+    "nombre": "Limarí",
+    "region": 4
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 51,
+  "fields": {
+    "nombre": "Valparaíso",
+    "region": 5
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 52,
+  "fields": {
+    "nombre": "Isla de Pascua",
+    "region": 5
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 53,
+  "fields": {
+    "nombre": "Los Andes",
+    "region": 5
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 54,
+  "fields": {
+    "nombre": "Petorca",
+    "region": 5
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 55,
+  "fields": {
+    "nombre": "Quillota",
+    "region": 5
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 56,
+  "fields": {
+    "nombre": "San Antonio",
+    "region": 5
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 57,
+  "fields": {
+    "nombre": "San Felipe de Aconcagua",
+    "region": 5
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 58,
+  "fields": {
+    "nombre": "Marga Marga",
+    "region": 5
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 61,
+  "fields": {
+    "nombre": "Cachapoal",
+    "region": 6
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 62,
+  "fields": {
+    "nombre": "Cardenal Caro",
+    "region": 6
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 63,
+  "fields": {
+    "nombre": "Colchagua",
+    "region": 6
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 71,
+  "fields": {
+    "nombre": "Talca",
+    "region": 7
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 72,
+  "fields": {
+    "nombre": "Cauquenes",
+    "region": 7
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 73,
+  "fields": {
+    "nombre": "Curicó",
+    "region": 7
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 74,
+  "fields": {
+    "nombre": "Linares",
+    "region": 7
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 81,
+  "fields": {
+    "nombre": "Concepción",
+    "region": 8
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 82,
+  "fields": {
+    "nombre": "Arauco",
+    "region": 8
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 83,
+  "fields": {
+    "nombre": "Biobío",
+    "region": 8
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 91,
+  "fields": {
+    "nombre": "Cautín",
+    "region": 9
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 92,
+  "fields": {
+    "nombre": "Malleco",
+    "region": 9
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 101,
+  "fields": {
+    "nombre": "Llanquihue",
+    "region": 10
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 102,
+  "fields": {
+    "nombre": "Chiloé",
+    "region": 10
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 103,
+  "fields": {
+    "nombre": "Osorno",
+    "region": 10
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 104,
+  "fields": {
+    "nombre": "Palena",
+    "region": 10
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 111,
+  "fields": {
+    "nombre": "Coihaique",
+    "region": 11
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 112,
+  "fields": {
+    "nombre": "Aisén",
+    "region": 11
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 113,
+  "fields": {
+    "nombre": "Capitán Prat",
+    "region": 11
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 114,
+  "fields": {
+    "nombre": "General Carrera",
+    "region": 11
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 121,
+  "fields": {
+    "nombre": "Magallanes",
+    "region": 12
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 122,
+  "fields": {
+    "nombre": "Antártica Chilena",
+    "region": 12
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 123,
+  "fields": {
+    "nombre": "Tierra del Fuego",
+    "region": 12
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 124,
+  "fields": {
+    "nombre": "Última Esperanza",
+    "region": 12
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 131,
+  "fields": {
+    "nombre": "Santiago",
+    "region": 13
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 132,
+  "fields": {
+    "nombre": "Cordillera",
+    "region": 13
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 133,
+  "fields": {
+    "nombre": "Chacabuco",
+    "region": 13
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 134,
+  "fields": {
+    "nombre": "Maipo",
+    "region": 13
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 135,
+  "fields": {
+    "nombre": "Melipilla",
+    "region": 13
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 136,
+  "fields": {
+    "nombre": "Talagante",
+    "region": 13
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 141,
+  "fields": {
+    "nombre": "Valdivia",
+    "region": 14
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 142,
+  "fields": {
+    "nombre": "Ranco",
+    "region": 14
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 151,
+  "fields": {
+    "nombre": "Arica",
+    "region": 15
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 152,
+  "fields": {
+    "nombre": "Parinacota",
+    "region": 15
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 161,
+  "fields": {
+    "nombre": "Punilla",
+    "region": 16
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 162,
+  "fields": {
+    "nombre": "Itata",
+    "region": 16
+  }
+},
+{
+  "model": "inmobiliaria_app.provincia",
+  "pk": 163,
+  "fields": {
+    "nombre": "Diguillín",
+    "region": 16
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 1101,
+  "fields": {
+    "nombre": "Iquique",
+    "provincia": 11
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 1107,
+  "fields": {
+    "nombre": "Alto Hospicio",
+    "provincia": 11
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 1401,
+  "fields": {
+    "nombre": "Pozo Almonte",
+    "provincia": 14
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 1402,
+  "fields": {
+    "nombre": "Camiña",
+    "provincia": 14
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 1403,
+  "fields": {
+    "nombre": "Colchane",
+    "provincia": 14
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 1404,
+  "fields": {
+    "nombre": "Huara",
+    "provincia": 14
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 1405,
+  "fields": {
+    "nombre": "Pica",
+    "provincia": 14
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 2101,
+  "fields": {
+    "nombre": "Antofagasta",
+    "provincia": 21
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 2102,
+  "fields": {
+    "nombre": "Mejillones",
+    "provincia": 21
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 2103,
+  "fields": {
+    "nombre": "Sierra Gorda",
+    "provincia": 21
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 2104,
+  "fields": {
+    "nombre": "Taltal",
+    "provincia": 21
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 2201,
+  "fields": {
+    "nombre": "Calama",
+    "provincia": 22
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 2202,
+  "fields": {
+    "nombre": "Ollagüe",
+    "provincia": 22
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 2203,
+  "fields": {
+    "nombre": "San Pedro de Atacama",
+    "provincia": 22
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 2301,
+  "fields": {
+    "nombre": "Tocopilla",
+    "provincia": 23
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 2302,
+  "fields": {
+    "nombre": "María Elena",
+    "provincia": 23
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 3101,
+  "fields": {
+    "nombre": "Copiapó",
+    "provincia": 31
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 3102,
+  "fields": {
+    "nombre": "Caldera",
+    "provincia": 31
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 3103,
+  "fields": {
+    "nombre": "Tierra Amarilla",
+    "provincia": 31
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 3201,
+  "fields": {
+    "nombre": "Chañaral",
+    "provincia": 32
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 3202,
+  "fields": {
+    "nombre": "Diego de Almagro",
+    "provincia": 32
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 3301,
+  "fields": {
+    "nombre": "Vallenar",
+    "provincia": 33
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 3302,
+  "fields": {
+    "nombre": "Alto del Carmen",
+    "provincia": 33
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 3303,
+  "fields": {
+    "nombre": "Freirina",
+    "provincia": 33
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 3304,
+  "fields": {
+    "nombre": "Huasco",
+    "provincia": 33
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 4101,
+  "fields": {
+    "nombre": "La Serena",
+    "provincia": 41
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 4102,
+  "fields": {
+    "nombre": "Coquimbo",
+    "provincia": 41
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 4103,
+  "fields": {
+    "nombre": "Andacollo",
+    "provincia": 41
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 4104,
+  "fields": {
+    "nombre": "La Higuera",
+    "provincia": 41
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 4105,
+  "fields": {
+    "nombre": "Paihuano",
+    "provincia": 41
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 4106,
+  "fields": {
+    "nombre": "Vicuña",
+    "provincia": 41
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 4201,
+  "fields": {
+    "nombre": "Illapel",
+    "provincia": 42
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 4202,
+  "fields": {
+    "nombre": "Canela",
+    "provincia": 42
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 4203,
+  "fields": {
+    "nombre": "Los Vilos",
+    "provincia": 42
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 4204,
+  "fields": {
+    "nombre": "Salamanca",
+    "provincia": 42
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 4301,
+  "fields": {
+    "nombre": "Ovalle",
+    "provincia": 43
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 4302,
+  "fields": {
+    "nombre": "Combarbalá",
+    "provincia": 43
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 4303,
+  "fields": {
+    "nombre": "Monte Patria",
+    "provincia": 43
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 4304,
+  "fields": {
+    "nombre": "Punitaqui",
+    "provincia": 43
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 4305,
+  "fields": {
+    "nombre": "Río Hurtado",
+    "provincia": 43
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5101,
+  "fields": {
+    "nombre": "Valparaíso",
+    "provincia": 51
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5102,
+  "fields": {
+    "nombre": "Casablanca",
+    "provincia": 51
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5103,
+  "fields": {
+    "nombre": "Concón",
+    "provincia": 51
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5104,
+  "fields": {
+    "nombre": "Juan Fernández",
+    "provincia": 51
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5105,
+  "fields": {
+    "nombre": "Puchuncaví",
+    "provincia": 51
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5107,
+  "fields": {
+    "nombre": "Quintero",
+    "provincia": 51
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5109,
+  "fields": {
+    "nombre": "Viña del Mar",
+    "provincia": 51
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5201,
+  "fields": {
+    "nombre": "Isla de Pascua",
+    "provincia": 52
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5301,
+  "fields": {
+    "nombre": "Los Andes",
+    "provincia": 53
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5302,
+  "fields": {
+    "nombre": "Calle Larga",
+    "provincia": 53
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5303,
+  "fields": {
+    "nombre": "Rinconada",
+    "provincia": 53
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5304,
+  "fields": {
+    "nombre": "San Esteban",
+    "provincia": 53
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5401,
+  "fields": {
+    "nombre": "La Ligua",
+    "provincia": 54
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5402,
+  "fields": {
+    "nombre": "Cabildo",
+    "provincia": 54
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5403,
+  "fields": {
+    "nombre": "Papudo",
+    "provincia": 54
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5404,
+  "fields": {
+    "nombre": "Petorca",
+    "provincia": 54
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5405,
+  "fields": {
+    "nombre": "Zapallar",
+    "provincia": 54
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5501,
+  "fields": {
+    "nombre": "Quillota",
+    "provincia": 55
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5502,
+  "fields": {
+    "nombre": "La Calera",
+    "provincia": 55
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5503,
+  "fields": {
+    "nombre": "Hijuelas",
+    "provincia": 55
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5504,
+  "fields": {
+    "nombre": "La Cruz",
+    "provincia": 55
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5506,
+  "fields": {
+    "nombre": "Nogales",
+    "provincia": 55
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5601,
+  "fields": {
+    "nombre": "San Antonio",
+    "provincia": 56
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5602,
+  "fields": {
+    "nombre": "Algarrobo",
+    "provincia": 56
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5603,
+  "fields": {
+    "nombre": "Cartagena",
+    "provincia": 56
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5604,
+  "fields": {
+    "nombre": "El Quisco",
+    "provincia": 56
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5605,
+  "fields": {
+    "nombre": "El Tabo",
+    "provincia": 56
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5606,
+  "fields": {
+    "nombre": "Santo Domingo",
+    "provincia": 56
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5701,
+  "fields": {
+    "nombre": "San Felipe",
+    "provincia": 57
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5702,
+  "fields": {
+    "nombre": "Catemu",
+    "provincia": 57
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5703,
+  "fields": {
+    "nombre": "Llay Llay",
+    "provincia": 57
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5704,
+  "fields": {
+    "nombre": "Panquehue",
+    "provincia": 57
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5705,
+  "fields": {
+    "nombre": "Putaendo",
+    "provincia": 57
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5706,
+  "fields": {
+    "nombre": "Santa María",
+    "provincia": 57
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5801,
+  "fields": {
+    "nombre": "Quilpué",
+    "provincia": 58
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5802,
+  "fields": {
+    "nombre": "Limache",
+    "provincia": 58
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5803,
+  "fields": {
+    "nombre": "Olmué",
+    "provincia": 58
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 5804,
+  "fields": {
+    "nombre": "Villa Alemana",
+    "provincia": 58
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6101,
+  "fields": {
+    "nombre": "Rancagua",
+    "provincia": 61
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6102,
+  "fields": {
+    "nombre": "Codegua",
+    "provincia": 61
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6103,
+  "fields": {
+    "nombre": "Coinco",
+    "provincia": 61
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6104,
+  "fields": {
+    "nombre": "Coltauco",
+    "provincia": 61
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6105,
+  "fields": {
+    "nombre": "Doñihue",
+    "provincia": 61
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6106,
+  "fields": {
+    "nombre": "Graneros",
+    "provincia": 61
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6107,
+  "fields": {
+    "nombre": "Las Cabras",
+    "provincia": 61
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6108,
+  "fields": {
+    "nombre": "Machalí",
+    "provincia": 61
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6109,
+  "fields": {
+    "nombre": "Malloa",
+    "provincia": 61
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6110,
+  "fields": {
+    "nombre": "Mostazal",
+    "provincia": 61
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6111,
+  "fields": {
+    "nombre": "Olivar",
+    "provincia": 61
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6112,
+  "fields": {
+    "nombre": "Peumo",
+    "provincia": 61
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6113,
+  "fields": {
+    "nombre": "Pichidegua",
+    "provincia": 61
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6114,
+  "fields": {
+    "nombre": "Quinta de Tilcoco",
+    "provincia": 61
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6115,
+  "fields": {
+    "nombre": "Rengo",
+    "provincia": 61
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6116,
+  "fields": {
+    "nombre": "Requínoa",
+    "provincia": 61
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6117,
+  "fields": {
+    "nombre": "San Vicente",
+    "provincia": 61
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6201,
+  "fields": {
+    "nombre": "Pichilemu",
+    "provincia": 62
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6202,
+  "fields": {
+    "nombre": "La Estrella",
+    "provincia": 62
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6203,
+  "fields": {
+    "nombre": "Litueche",
+    "provincia": 62
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6204,
+  "fields": {
+    "nombre": "Marchihue",
+    "provincia": 62
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6205,
+  "fields": {
+    "nombre": "Navidad",
+    "provincia": 62
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6206,
+  "fields": {
+    "nombre": "Paredones",
+    "provincia": 62
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6301,
+  "fields": {
+    "nombre": "San Fernando",
+    "provincia": 63
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6302,
+  "fields": {
+    "nombre": "Chépica",
+    "provincia": 63
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6303,
+  "fields": {
+    "nombre": "Chimbarongo",
+    "provincia": 63
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6304,
+  "fields": {
+    "nombre": "Lolol",
+    "provincia": 63
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6305,
+  "fields": {
+    "nombre": "Nancagua",
+    "provincia": 63
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6306,
+  "fields": {
+    "nombre": "Palmilla",
+    "provincia": 63
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6307,
+  "fields": {
+    "nombre": "Peralillo",
+    "provincia": 63
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6308,
+  "fields": {
+    "nombre": "Placilla",
+    "provincia": 63
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6309,
+  "fields": {
+    "nombre": "Pumanque",
+    "provincia": 63
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 6310,
+  "fields": {
+    "nombre": "Santa Cruz",
+    "provincia": 63
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7101,
+  "fields": {
+    "nombre": "Talca",
+    "provincia": 71
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7102,
+  "fields": {
+    "nombre": "Constitución",
+    "provincia": 71
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7103,
+  "fields": {
+    "nombre": "Curepto",
+    "provincia": 71
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7104,
+  "fields": {
+    "nombre": "Empedrado",
+    "provincia": 71
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7105,
+  "fields": {
+    "nombre": "Maule",
+    "provincia": 71
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7106,
+  "fields": {
+    "nombre": "Pelarco",
+    "provincia": 71
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7107,
+  "fields": {
+    "nombre": "Pencahue",
+    "provincia": 71
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7108,
+  "fields": {
+    "nombre": "Río Claro",
+    "provincia": 71
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7109,
+  "fields": {
+    "nombre": "San Clemente",
+    "provincia": 71
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7110,
+  "fields": {
+    "nombre": "San Rafael",
+    "provincia": 71
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7201,
+  "fields": {
+    "nombre": "Cauquenes",
+    "provincia": 72
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7202,
+  "fields": {
+    "nombre": "Chanco",
+    "provincia": 72
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7203,
+  "fields": {
+    "nombre": "Pelluhue",
+    "provincia": 72
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7301,
+  "fields": {
+    "nombre": "Curicó",
+    "provincia": 73
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7302,
+  "fields": {
+    "nombre": "Hualañé",
+    "provincia": 73
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7303,
+  "fields": {
+    "nombre": "Licantén",
+    "provincia": 73
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7304,
+  "fields": {
+    "nombre": "Molina",
+    "provincia": 73
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7305,
+  "fields": {
+    "nombre": "Rauco",
+    "provincia": 73
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7306,
+  "fields": {
+    "nombre": "Romeral",
+    "provincia": 73
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7307,
+  "fields": {
+    "nombre": "Sagrada Familia",
+    "provincia": 73
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7308,
+  "fields": {
+    "nombre": "Teno",
+    "provincia": 73
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7309,
+  "fields": {
+    "nombre": "Vichuquén",
+    "provincia": 73
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7401,
+  "fields": {
+    "nombre": "Linares",
+    "provincia": 74
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7402,
+  "fields": {
+    "nombre": "Colbún",
+    "provincia": 74
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7403,
+  "fields": {
+    "nombre": "Longaví",
+    "provincia": 74
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7404,
+  "fields": {
+    "nombre": "Parral",
+    "provincia": 74
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7405,
+  "fields": {
+    "nombre": "Retiro",
+    "provincia": 74
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7406,
+  "fields": {
+    "nombre": "San Javier",
+    "provincia": 74
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7407,
+  "fields": {
+    "nombre": "Villa Alegre",
+    "provincia": 74
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 7408,
+  "fields": {
+    "nombre": "Yerbas Buenas",
+    "provincia": 74
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8101,
+  "fields": {
+    "nombre": "Concepción",
+    "provincia": 81
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8102,
+  "fields": {
+    "nombre": "Coronel",
+    "provincia": 81
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8103,
+  "fields": {
+    "nombre": "Chiguayante",
+    "provincia": 81
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8104,
+  "fields": {
+    "nombre": "Florida",
+    "provincia": 81
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8105,
+  "fields": {
+    "nombre": "Hualqui",
+    "provincia": 81
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8106,
+  "fields": {
+    "nombre": "Lota",
+    "provincia": 81
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8107,
+  "fields": {
+    "nombre": "Penco",
+    "provincia": 81
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8108,
+  "fields": {
+    "nombre": "San Pedro de la Paz",
+    "provincia": 81
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8109,
+  "fields": {
+    "nombre": "Santa Juana",
+    "provincia": 81
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8110,
+  "fields": {
+    "nombre": "Talcahuano",
+    "provincia": 81
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8111,
+  "fields": {
+    "nombre": "Tomé",
+    "provincia": 81
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8112,
+  "fields": {
+    "nombre": "Hualpén",
+    "provincia": 81
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8201,
+  "fields": {
+    "nombre": "Lebu",
+    "provincia": 82
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8202,
+  "fields": {
+    "nombre": "Arauco",
+    "provincia": 82
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8203,
+  "fields": {
+    "nombre": "Cañete",
+    "provincia": 82
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8204,
+  "fields": {
+    "nombre": "Contulmo",
+    "provincia": 82
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8205,
+  "fields": {
+    "nombre": "Curanilahue",
+    "provincia": 82
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8206,
+  "fields": {
+    "nombre": "Los Álamos",
+    "provincia": 82
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8207,
+  "fields": {
+    "nombre": "Tirúa",
+    "provincia": 82
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8301,
+  "fields": {
+    "nombre": "Los Ángeles",
+    "provincia": 83
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8302,
+  "fields": {
+    "nombre": "Antuco",
+    "provincia": 83
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8303,
+  "fields": {
+    "nombre": "Cabrero",
+    "provincia": 83
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8304,
+  "fields": {
+    "nombre": "Laja",
+    "provincia": 83
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8305,
+  "fields": {
+    "nombre": "Mulchén",
+    "provincia": 83
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8306,
+  "fields": {
+    "nombre": "Nacimiento",
+    "provincia": 83
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8307,
+  "fields": {
+    "nombre": "Negrete",
+    "provincia": 83
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8308,
+  "fields": {
+    "nombre": "Quilaco",
+    "provincia": 83
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8309,
+  "fields": {
+    "nombre": "Quilleco",
+    "provincia": 83
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8310,
+  "fields": {
+    "nombre": "San Rosendo",
+    "provincia": 83
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8311,
+  "fields": {
+    "nombre": "Santa Bárbara",
+    "provincia": 83
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8312,
+  "fields": {
+    "nombre": "Tucapel",
+    "provincia": 83
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8313,
+  "fields": {
+    "nombre": "Yumbel",
+    "provincia": 83
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8314,
+  "fields": {
+    "nombre": "Alto Biobío",
+    "provincia": 83
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8401,
+  "fields": {
+    "nombre": "Chillán",
+    "provincia": 163
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8402,
+  "fields": {
+    "nombre": "Bulnes",
+    "provincia": 163
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8403,
+  "fields": {
+    "nombre": "Cobquecura",
+    "provincia": 162
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8404,
+  "fields": {
+    "nombre": "Coelemu",
+    "provincia": 162
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8405,
+  "fields": {
+    "nombre": "Coihueco",
+    "provincia": 161
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8406,
+  "fields": {
+    "nombre": "Chillán Viejo",
+    "provincia": 163
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8407,
+  "fields": {
+    "nombre": "El Carmen",
+    "provincia": 163
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8408,
+  "fields": {
+    "nombre": "Ninhue",
+    "provincia": 162
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8409,
+  "fields": {
+    "nombre": "Ñiquén",
+    "provincia": 161
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8410,
+  "fields": {
+    "nombre": "Pemuco",
+    "provincia": 163
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8411,
+  "fields": {
+    "nombre": "Pinto",
+    "provincia": 163
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8412,
+  "fields": {
+    "nombre": "Portezuelo",
+    "provincia": 162
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8413,
+  "fields": {
+    "nombre": "Quillón",
+    "provincia": 163
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8414,
+  "fields": {
+    "nombre": "Quirihue",
+    "provincia": 162
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8415,
+  "fields": {
+    "nombre": "Ránquil",
+    "provincia": 162
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8416,
+  "fields": {
+    "nombre": "San Carlos",
+    "provincia": 161
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8417,
+  "fields": {
+    "nombre": "San Fabián",
+    "provincia": 161
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8418,
+  "fields": {
+    "nombre": "San Ignacio",
+    "provincia": 163
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8419,
+  "fields": {
+    "nombre": "San Nicolás",
+    "provincia": 161
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8420,
+  "fields": {
+    "nombre": "Treguaco",
+    "provincia": 162
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 8421,
+  "fields": {
+    "nombre": "Yungay",
+    "provincia": 163
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9101,
+  "fields": {
+    "nombre": "Temuco",
+    "provincia": 91
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9102,
+  "fields": {
+    "nombre": "Carahue",
+    "provincia": 91
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9103,
+  "fields": {
+    "nombre": "Cunco",
+    "provincia": 91
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9104,
+  "fields": {
+    "nombre": "Curarrehue",
+    "provincia": 91
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9105,
+  "fields": {
+    "nombre": "Freire",
+    "provincia": 91
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9106,
+  "fields": {
+    "nombre": "Galvarino",
+    "provincia": 91
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9107,
+  "fields": {
+    "nombre": "Gorbea",
+    "provincia": 91
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9108,
+  "fields": {
+    "nombre": "Lautaro",
+    "provincia": 91
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9109,
+  "fields": {
+    "nombre": "Loncoche",
+    "provincia": 91
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9110,
+  "fields": {
+    "nombre": "Melipeuco",
+    "provincia": 91
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9111,
+  "fields": {
+    "nombre": "Nueva Imperial",
+    "provincia": 91
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9112,
+  "fields": {
+    "nombre": "Padre las Casas",
+    "provincia": 91
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9113,
+  "fields": {
+    "nombre": "Perquenco",
+    "provincia": 91
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9114,
+  "fields": {
+    "nombre": "Pitrufquén",
+    "provincia": 91
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9115,
+  "fields": {
+    "nombre": "Pucón",
+    "provincia": 91
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9116,
+  "fields": {
+    "nombre": "Saavedra",
+    "provincia": 91
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9117,
+  "fields": {
+    "nombre": "Teodoro Schmidt",
+    "provincia": 91
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9118,
+  "fields": {
+    "nombre": "Toltén",
+    "provincia": 91
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9119,
+  "fields": {
+    "nombre": "Vilcún",
+    "provincia": 91
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9120,
+  "fields": {
+    "nombre": "Villarrica",
+    "provincia": 91
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9121,
+  "fields": {
+    "nombre": "Cholchol",
+    "provincia": 91
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9201,
+  "fields": {
+    "nombre": "Angol",
+    "provincia": 92
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9202,
+  "fields": {
+    "nombre": "Collipulli",
+    "provincia": 92
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9203,
+  "fields": {
+    "nombre": "Curacautín",
+    "provincia": 92
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9204,
+  "fields": {
+    "nombre": "Ercilla",
+    "provincia": 92
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9205,
+  "fields": {
+    "nombre": "Lonquimay",
+    "provincia": 92
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9206,
+  "fields": {
+    "nombre": "Los Sauces",
+    "provincia": 92
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9207,
+  "fields": {
+    "nombre": "Lumaco",
+    "provincia": 92
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9208,
+  "fields": {
+    "nombre": "Purén",
+    "provincia": 92
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9209,
+  "fields": {
+    "nombre": "Renaico",
+    "provincia": 92
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9210,
+  "fields": {
+    "nombre": "Traiguén",
+    "provincia": 92
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 9211,
+  "fields": {
+    "nombre": "Victoria",
+    "provincia": 92
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10101,
+  "fields": {
+    "nombre": "Puerto Montt",
+    "provincia": 101
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10102,
+  "fields": {
+    "nombre": "Calbuco",
+    "provincia": 101
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10103,
+  "fields": {
+    "nombre": "Cochamó",
+    "provincia": 101
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10104,
+  "fields": {
+    "nombre": "Fresia",
+    "provincia": 101
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10105,
+  "fields": {
+    "nombre": "Frutillar",
+    "provincia": 101
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10106,
+  "fields": {
+    "nombre": "Los Muermos",
+    "provincia": 101
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10107,
+  "fields": {
+    "nombre": "Llanquihue",
+    "provincia": 101
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10108,
+  "fields": {
+    "nombre": "Maullín",
+    "provincia": 101
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10109,
+  "fields": {
+    "nombre": "Puerto Varas",
+    "provincia": 101
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10201,
+  "fields": {
+    "nombre": "Castro",
+    "provincia": 102
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10202,
+  "fields": {
+    "nombre": "Ancud",
+    "provincia": 102
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10203,
+  "fields": {
+    "nombre": "Chonchi",
+    "provincia": 102
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10204,
+  "fields": {
+    "nombre": "Curaco de Vélez",
+    "provincia": 102
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10205,
+  "fields": {
+    "nombre": "Dalcahue",
+    "provincia": 102
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10206,
+  "fields": {
+    "nombre": "Puqueldón",
+    "provincia": 102
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10207,
+  "fields": {
+    "nombre": "Queilén",
+    "provincia": 102
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10208,
+  "fields": {
+    "nombre": "Quellón",
+    "provincia": 102
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10209,
+  "fields": {
+    "nombre": "Quemchi",
+    "provincia": 102
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10210,
+  "fields": {
+    "nombre": "Quinchao",
+    "provincia": 102
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10301,
+  "fields": {
+    "nombre": "Osorno",
+    "provincia": 103
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10302,
+  "fields": {
+    "nombre": "Puerto Octay",
+    "provincia": 103
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10303,
+  "fields": {
+    "nombre": "Purranque",
+    "provincia": 103
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10304,
+  "fields": {
+    "nombre": "Puyehue",
+    "provincia": 103
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10305,
+  "fields": {
+    "nombre": "Río Negro",
+    "provincia": 103
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10306,
+  "fields": {
+    "nombre": "San Juan de la Costa",
+    "provincia": 103
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10307,
+  "fields": {
+    "nombre": "San Pablo",
+    "provincia": 103
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10401,
+  "fields": {
+    "nombre": "Chaitén",
+    "provincia": 104
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10402,
+  "fields": {
+    "nombre": "Futaleufú",
+    "provincia": 104
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10403,
+  "fields": {
+    "nombre": "Hualaihué",
+    "provincia": 104
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 10404,
+  "fields": {
+    "nombre": "Palena",
+    "provincia": 104
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 11101,
+  "fields": {
+    "nombre": "Coyhaique",
+    "provincia": 111
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 11102,
+  "fields": {
+    "nombre": "Lago Verde",
+    "provincia": 111
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 11201,
+  "fields": {
+    "nombre": "Aysén",
+    "provincia": 112
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 11202,
+  "fields": {
+    "nombre": "Cisnes",
+    "provincia": 112
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 11203,
+  "fields": {
+    "nombre": "Guaitecas",
+    "provincia": 112
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 11301,
+  "fields": {
+    "nombre": "Cochrane",
+    "provincia": 113
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 11302,
+  "fields": {
+    "nombre": "O'Higgins",
+    "provincia": 113
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 11303,
+  "fields": {
+    "nombre": "Tortel",
+    "provincia": 113
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 11401,
+  "fields": {
+    "nombre": "Chile Chico",
+    "provincia": 114
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 11402,
+  "fields": {
+    "nombre": "Río Ibáñez",
+    "provincia": 114
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 12101,
+  "fields": {
+    "nombre": "Punta Arenas",
+    "provincia": 121
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 12102,
+  "fields": {
+    "nombre": "Laguna Blanca",
+    "provincia": 121
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 12103,
+  "fields": {
+    "nombre": "Río Verde",
+    "provincia": 121
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 12104,
+  "fields": {
+    "nombre": "San Gregorio",
+    "provincia": 121
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 12201,
+  "fields": {
+    "nombre": "Cabo de Hornos",
+    "provincia": 122
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 12202,
+  "fields": {
+    "nombre": "Antártica",
+    "provincia": 122
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 12301,
+  "fields": {
+    "nombre": "Porvenir",
+    "provincia": 123
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 12302,
+  "fields": {
+    "nombre": "Primavera",
+    "provincia": 123
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 12303,
+  "fields": {
+    "nombre": "Timaukel",
+    "provincia": 123
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 12401,
+  "fields": {
+    "nombre": "Natales",
+    "provincia": 124
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 12402,
+  "fields": {
+    "nombre": "Torres del Paine",
+    "provincia": 124
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13101,
+  "fields": {
+    "nombre": "Santiago",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13102,
+  "fields": {
+    "nombre": "Cerrillos",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13103,
+  "fields": {
+    "nombre": "Cerro Navia",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13104,
+  "fields": {
+    "nombre": "Conchalí",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13105,
+  "fields": {
+    "nombre": "El Bosque",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13106,
+  "fields": {
+    "nombre": "Estación Central",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13107,
+  "fields": {
+    "nombre": "Huechuraba",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13108,
+  "fields": {
+    "nombre": "Independencia",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13109,
+  "fields": {
+    "nombre": "La Cisterna",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13110,
+  "fields": {
+    "nombre": "La Florida",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13111,
+  "fields": {
+    "nombre": "La Granja",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13112,
+  "fields": {
+    "nombre": "La Pintana",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13113,
+  "fields": {
+    "nombre": "La Reina",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13114,
+  "fields": {
+    "nombre": "Las Condes",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13115,
+  "fields": {
+    "nombre": "Lo Barnechea",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13116,
+  "fields": {
+    "nombre": "Lo Espejo",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13117,
+  "fields": {
+    "nombre": "Lo Prado",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13118,
+  "fields": {
+    "nombre": "Macul",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13119,
+  "fields": {
+    "nombre": "Maipú",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13120,
+  "fields": {
+    "nombre": "Ñuñoa",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13121,
+  "fields": {
+    "nombre": "Pedro Aguirre Cerda",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13122,
+  "fields": {
+    "nombre": "Peñalolén",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13123,
+  "fields": {
+    "nombre": "Providencia",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13124,
+  "fields": {
+    "nombre": "Pudahuel",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13125,
+  "fields": {
+    "nombre": "Quilicura",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13126,
+  "fields": {
+    "nombre": "Quinta Normal",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13127,
+  "fields": {
+    "nombre": "Recoleta",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13128,
+  "fields": {
+    "nombre": "Renca",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13129,
+  "fields": {
+    "nombre": "San Joaquín",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13130,
+  "fields": {
+    "nombre": "San Miguel",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13131,
+  "fields": {
+    "nombre": "San Ramón",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13132,
+  "fields": {
+    "nombre": "Vitacura",
+    "provincia": 131
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13201,
+  "fields": {
+    "nombre": "Puente Alto",
+    "provincia": 132
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13202,
+  "fields": {
+    "nombre": "Pirque",
+    "provincia": 132
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13203,
+  "fields": {
+    "nombre": "San José de Maipo",
+    "provincia": 132
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13301,
+  "fields": {
+    "nombre": "Colina",
+    "provincia": 133
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13302,
+  "fields": {
+    "nombre": "Lampa",
+    "provincia": 133
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13303,
+  "fields": {
+    "nombre": "Tiltil",
+    "provincia": 133
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13401,
+  "fields": {
+    "nombre": "San Bernardo",
+    "provincia": 134
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13402,
+  "fields": {
+    "nombre": "Buin",
+    "provincia": 134
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13403,
+  "fields": {
+    "nombre": "Calera de Tango",
+    "provincia": 134
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13404,
+  "fields": {
+    "nombre": "Paine",
+    "provincia": 134
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13501,
+  "fields": {
+    "nombre": "Melipilla",
+    "provincia": 135
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13502,
+  "fields": {
+    "nombre": "Alhué",
+    "provincia": 135
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13503,
+  "fields": {
+    "nombre": "Curacaví",
+    "provincia": 135
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13504,
+  "fields": {
+    "nombre": "María Pinto",
+    "provincia": 135
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13505,
+  "fields": {
+    "nombre": "San Pedro",
+    "provincia": 135
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13601,
+  "fields": {
+    "nombre": "Talagante",
+    "provincia": 136
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13602,
+  "fields": {
+    "nombre": "El Monte",
+    "provincia": 136
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13603,
+  "fields": {
+    "nombre": "Isla de Maipo",
+    "provincia": 136
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13604,
+  "fields": {
+    "nombre": "Padre Hurtado",
+    "provincia": 136
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 13605,
+  "fields": {
+    "nombre": "Peñaflor",
+    "provincia": 136
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 14101,
+  "fields": {
+    "nombre": "Valdivia",
+    "provincia": 141
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 14102,
+  "fields": {
+    "nombre": "Corral",
+    "provincia": 141
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 14103,
+  "fields": {
+    "nombre": "Lanco",
+    "provincia": 141
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 14104,
+  "fields": {
+    "nombre": "Los Lagos",
+    "provincia": 141
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 14105,
+  "fields": {
+    "nombre": "Máfil",
+    "provincia": 141
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 14106,
+  "fields": {
+    "nombre": "Mariquina",
+    "provincia": 141
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 14107,
+  "fields": {
+    "nombre": "Paillaco",
+    "provincia": 141
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 14108,
+  "fields": {
+    "nombre": "Panguipulli",
+    "provincia": 141
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 14201,
+  "fields": {
+    "nombre": "La Unión",
+    "provincia": 142
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 14202,
+  "fields": {
+    "nombre": "Futrono",
+    "provincia": 142
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 14203,
+  "fields": {
+    "nombre": "Lago Ranco",
+    "provincia": 142
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 14204,
+  "fields": {
+    "nombre": "Río Bueno",
+    "provincia": 142
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 15101,
+  "fields": {
+    "nombre": "Arica",
+    "provincia": 151
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 15102,
+  "fields": {
+    "nombre": "Camarones",
+    "provincia": 151
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 15201,
+  "fields": {
+    "nombre": "Putre",
+    "provincia": 152
+  }
+},
+{
+  "model": "inmobiliaria_app.comuna",
+  "pk": 15202,
+  "fields": {
+    "nombre": "General Lagos",
+    "provincia": 152
+  }
+},
+{
+  "model": "inmobiliaria_app.usuario",
+  "pk": "268103848",
+  "fields": {
+    "nombres": "Francisco",
+    "apellidos": "Ant",
+    "direccion": "Lago Pirihueico 6502",
+    "telefono": "111111111",
+    "email": "csc@a2b.cl",
+    "tipo_user": "Arrendatario",
+    "activo": true,
+    "usuario": 2,
+    "crea_regist": "2024-05-23",
+    "mod_regist": "2024-06-20",
+    "creado_por": "user"
+  }
+},
+{
+  "model": "inmobiliaria_app.usuario",
+  "pk": "268103849",
+  "fields": {
+    "nombres": "Javier",
+    "apellidos": "Ant",
+    "direccion": "Lago Pirihueico 6502",
+    "telefono": "111111111",
+    "email": "javier@gmail.com",
+    "tipo_user": "Arrendador",
+    "activo": true,
+    "usuario": 3,
+    "crea_regist": "2024-06-14",
+    "mod_regist": "2024-06-20",
+    "creado_por": "user"
+  }
+},
+{
+  "model": "inmobiliaria_app.inmueble",
+  "pk": 1,
+  "fields": {
+    "nombre": "Casa Alto Patagonia-Puerto Varas",
+    "descripcion": "Departamento En Arriendo De 1 Dorm. En Puerto Varas, 2 dormitorio, 1 baño, Admite mascotas, 1 estacionamiento, Año de construcción: 2005",
+    "construido": 35,
+    "totales": 43,
+    "estacionamiento": "1",
+    "habitaciones": "2",
+    "banios": "1",
+    "direccion": "Av Panamericana 234",
+    "comuna": 2203,
+    "inmueble_tipo": "Casa",
+    "arriendo_mes": 720000,
+    "activo": true,
+    "crea_regist": "2024-05-23",
+    "mod_regist": "2024-05-23",
+    "creado_por": "Francisco"
+  }
+},
+{
+  "model": "inmobiliaria_app.inmueble",
+  "pk": 9,
+  "fields": {
+    "nombre": "Quinta La Esperanza",
+    "descripcion": "La aclamada escritora Lisa See retoma en Sueños de felicidad la historia de las hermanas Pearl y May, de Dos chicas de Shanghái, y Joy, la tenaz hija de diecinueve años de la primera.    Joy, todavía ",
+    "construido": 35,
+    "totales": 45,
+    "estacionamiento": "1",
+    "habitaciones": "2",
+    "banios": "2",
+    "direccion": "TENIENTE MERINO 1090",
+    "comuna": 1107,
+    "inmueble_tipo": "Departamento",
+    "arriendo_mes": 460000,
+    "activo": false,
+    "crea_regist": "2024-06-15",
+    "mod_regist": "2024-06-15",
+    "creado_por": "Francisco"
+  }
+},
+{
+  "model": "inmobiliaria_app.image",
+  "pk": 22,
+  "fields": {
+    "image": "inmobiliaria/3.webp",
+    "inmueble": 1
+  }
+},
+{
+  "model": "inmobiliaria_app.image",
+  "pk": 23,
+  "fields": {
+    "image": "inmobiliaria/15.webp",
+    "inmueble": 9
+  }
+},
+{
+  "model": "inmobiliaria_app.usuario_inmueble",
+  "pk": 3,
+  "fields": {
+    "arrendatario": 2,
+    "arrendador": null,
+    "inmueble": 9,
+    "estado": "Aprobado",
+    "crea_regist": "2024-06-15",
+    "mod_regist": "2024-06-15",
+    "creado_por": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2024-05-22T04:29:17.699Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Arrendador",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2024-05-22T04:29:42.217Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "Arrendatario",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2024-06-20T18:44:11.524Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "admin",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2024-06-20T18:44:27.381Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "1",
+    "object_repr": "admin",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2024-06-20T18:45:30.559Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Francisco",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2024-06-20T18:47:08.997Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "Francisco",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2024-06-20T18:47:31.288Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "Javier_Francisco",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"password\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2024-06-20T18:57:21.144Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "268103849",
+    "object_repr": "Ant, Javier",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Apellidos\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2024-06-20T18:57:28.466Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "268103848",
+    "object_repr": "Ant, Francisco",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Apellidos\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2024-06-20T18:59:06.155Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "18",
+    "object_repr": "Quinta La Esperanza. Comuna: Camiña",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2024-06-20T18:59:06.174Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "17",
+    "object_repr": "Quinta La Esperanza. Comuna: Ollagüe",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2024-06-20T18:59:06.174Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "16",
+    "object_repr": "Quinta La Esperanza. Comuna: Copiapó",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2024-06-20T18:59:06.179Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "14",
+    "object_repr": "Quinta La Esperanza. Comuna: Caldera",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2024-06-20T18:59:06.181Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "13",
+    "object_repr": "Quinta La Esperanza. Comuna: Alto Hospicio",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2024-06-20T18:59:06.181Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "12",
+    "object_repr": "Quinta La Esperanza. Comuna: Alto Hospicio",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2024-06-20T18:59:06.186Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "11",
+    "object_repr": "Quinta La Esperanza. Comuna: Pozo Almonte",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2024-06-20T18:59:06.186Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "10",
+    "object_repr": "Quinta La Esperanza. Comuna: Alto Hospicio",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2024-06-20T18:59:06.190Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "8",
+    "object_repr": "Casa Alto Patagonia-Puerto Varas. Comuna: Copiapó",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2024-06-20T18:59:06.190Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "7",
+    "object_repr": "Casa Cambiada. Comuna: Caldera",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2024-06-20T18:59:06.194Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "6",
+    "object_repr": "Casa Alto Patagonia-Puerto Varas. Comuna: Alto Hospicio",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 21,
+  "fields": {
+    "action_time": "2024-06-20T18:59:06.198Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "5",
+    "object_repr": "Casa Alto Patagonia-Puerto Varas. Comuna: Alto Hospicio",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 22,
+  "fields": {
+    "action_time": "2024-06-20T18:59:06.198Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "4",
+    "object_repr": "Casa Alto Patagonia-Puerto Varas. Comuna: Alto Hospicio",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 23,
+  "fields": {
+    "action_time": "2024-06-20T18:59:06.202Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "3",
+    "object_repr": "Casa Alto Patagonia-Puerto Varas. Comuna: Caldera",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 24,
+  "fields": {
+    "action_time": "2024-06-20T18:59:06.203Z",
+    "user": 1,
+    "content_type": 4,
+    "object_id": "2",
+    "object_repr": "Casa Alto Patagonia-Puerto Varas. Comuna: Alto Hospicio",
+    "action_flag": 3,
+    "change_message": ""
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 25,
+  "fields": {
+    "action_time": "2024-06-20T19:01:18.045Z",
+    "user": 1,
+    "content_type": 5,
+    "object_id": "22",
+    "object_repr": "Image object (22)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 26,
+  "fields": {
+    "action_time": "2024-06-20T19:01:22.895Z",
+    "user": 1,
+    "content_type": 5,
+    "object_id": "22",
+    "object_repr": "Image object (22)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 27,
+  "fields": {
+    "action_time": "2024-06-20T19:01:27.955Z",
+    "user": 1,
+    "content_type": 5,
+    "object_id": "22",
+    "object_repr": "Image object (22)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 28,
+  "fields": {
+    "action_time": "2024-06-20T19:01:46.167Z",
+    "user": 1,
+    "content_type": 5,
+    "object_id": "23",
+    "object_repr": "Image object (23)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 29,
+  "fields": {
+    "action_time": "2024-06-20T19:01:52.391Z",
+    "user": 1,
+    "content_type": 5,
+    "object_id": "23",
+    "object_repr": "Image object (23)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 30,
+  "fields": {
+    "action_time": "2024-06-20T19:02:01.348Z",
+    "user": 1,
+    "content_type": 5,
+    "object_id": "23",
+    "object_repr": "Image object (23)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add comuna",
+    "content_type": 1,
+    "codename": "add_comuna"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change comuna",
+    "content_type": 1,
+    "codename": "change_comuna"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete comuna",
+    "content_type": 1,
+    "codename": "delete_comuna"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view comuna",
+    "content_type": 1,
+    "codename": "view_comuna"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add provincia",
+    "content_type": 2,
+    "codename": "add_provincia"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change provincia",
+    "content_type": 2,
+    "codename": "change_provincia"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete provincia",
+    "content_type": 2,
+    "codename": "delete_provincia"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view provincia",
+    "content_type": 2,
+    "codename": "view_provincia"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add region",
+    "content_type": 3,
+    "codename": "add_region"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change region",
+    "content_type": 3,
+    "codename": "change_region"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete region",
+    "content_type": 3,
+    "codename": "delete_region"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view region",
+    "content_type": 3,
+    "codename": "view_region"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add inmueble",
+    "content_type": 4,
+    "codename": "add_inmueble"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change inmueble",
+    "content_type": 4,
+    "codename": "change_inmueble"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete inmueble",
+    "content_type": 4,
+    "codename": "delete_inmueble"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view inmueble",
+    "content_type": 4,
+    "codename": "view_inmueble"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add image",
+    "content_type": 5,
+    "codename": "add_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change image",
+    "content_type": 5,
+    "codename": "change_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete image",
+    "content_type": 5,
+    "codename": "delete_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view image",
+    "content_type": 5,
+    "codename": "view_image"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add usuario",
+    "content_type": 6,
+    "codename": "add_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change usuario",
+    "content_type": 6,
+    "codename": "change_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete usuario",
+    "content_type": 6,
+    "codename": "delete_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view usuario",
+    "content_type": 6,
+    "codename": "view_usuario"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add usuario_ inmueble",
+    "content_type": 7,
+    "codename": "add_usuario_inmueble"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change usuario_ inmueble",
+    "content_type": 7,
+    "codename": "change_usuario_inmueble"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete usuario_ inmueble",
+    "content_type": 7,
+    "codename": "delete_usuario_inmueble"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view usuario_ inmueble",
+    "content_type": 7,
+    "codename": "view_usuario_inmueble"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 8,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 8,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 8,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 8,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 9,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 9,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 9,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 9,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 10,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 10,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 10,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 10,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 11,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 11,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 11,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 11,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 12,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 12,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 12,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 12,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 13,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 13,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 13,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 13,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "Arrendador",
+    "permissions": []
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 2,
+  "fields": {
+    "name": "Arrendatario",
+    "permissions": [
+      1,
+      2,
+      3,
+      4,
+      17,
+      18,
+      19,
+      20,
+      13,
+      14,
+      15,
+      16,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28
+    ]
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$iOPRHQmld91RbKPrQrKvUi$C+Gqj7tTsLesOs69/B4QT0dpVr0hkSgxmN0XAnWsryw=",
+    "last_login": "2024-06-20T18:43:17Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "",
+    "last_name": "",
+    "email": "admin@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2024-05-22T04:14:03Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 2,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$4oh1cSMatcoBcdBLoc2x5B$XKREIPqhlGFw8ZrSM5UQCP31FzOmfFCeAnfFoq/shLI=",
+    "last_login": "2024-06-19T22:13:55Z",
+    "is_superuser": false,
+    "username": "Francisco",
+    "first_name": "Francisco",
+    "last_name": "Longares",
+    "email": "francisco@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-05-24T01:13:27Z",
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$720000$G2TfMTqdOjkEGFLWFMP7Ay$EzElAnPK8WQL2uQO7b8290kcUUdEoXd8pFDyfni5lME=",
+    "last_login": "2024-06-19T14:38:22.508Z",
+    "is_superuser": false,
+    "username": "Javier_Francisco",
+    "first_name": "Javier",
+    "last_name": "Longares",
+    "email": "javier@gmail.com",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2024-06-14T20:48:51.871Z",
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "inmobiliaria_app",
+    "model": "comuna"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "inmobiliaria_app",
+    "model": "provincia"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "inmobiliaria_app",
+    "model": "region"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "inmobiliaria_app",
+    "model": "inmueble"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "inmobiliaria_app",
+    "model": "image"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "inmobiliaria_app",
+    "model": "usuario"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "inmobiliaria_app",
+    "model": "usuario_inmueble"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0gp35fiawqu7n48bu1dafn92n60xenuk",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAURP-la9NQ6AuX7vmG5j5ai5o2obAy_ruQsNDlzDkzbxFgW3PYWlzCzOIqenH57RDoGcsB-AHlXiXVsi4zykORJ21yqhxft9P9O8jQ8r5G0uiRvFLe-KEjMNrBHh27NJoBrbYD-Y5TYq2jQk5sLRv2wGNyPYvPF--UOKY:1sJaet:x5kjFNDwW6HHDXUP_DlcqWQU3cbP3X4G9-B9y7djCrM",
+    "expire_date": "2024-06-18T15:32:07.970Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1eege73dzfoqzowb3fdff77wed7gbm7i",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAUBe_iGlmO45WSnjNYf3FwANlSnFSIu0OkFNC-mXkvkWBbS9p6XtLM4ixGcfrdEOiR6w74DvXWJLW6LjPKXZEH7fLaOD8vh_t3UKCXb63QkgkRwSsbo48jMTDpYSBjeEJFSOzYeaNs0IyswAAxRafRT4GDeH8A9o04wA:1sJwSZ:UaBcp4MzClTDloQm4BkLmLNdCIfTBn4ngfn_E9lmOgc",
+    "expire_date": "2024-06-19T14:48:51.170Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1v5yhkldc86grgfqf1etwvgiwh7gbfcx",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAURP-la9NQ6AuX7vmG5j5ai5o2obAy_ruQsNDlzDkzbxFgW3PYWlzCzOIqenH57RDoGcsB-AHlXiXVsi4zykORJ21yqhxft9P9O8jQ8r5G0uiRvFLe-KEjMNrBHh27NJoBrbYD-Y5TYq2jQk5sLRv2wGNyPYvPF--UOKY:1sJbAv:7IwYsY6aMz4XL4pTWUaYDFSaVvI2zWWPQR048oq2qos",
+    "expire_date": "2024-06-18T16:05:13.705Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2jkm2hdpgw3n85kdh19kfoga20b3qtgo",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAURP-la9NQ6AuX7vmG5j5ai5o2obAy_ruQsNDlzDkzbxFgW3PYWlzCzOIqenH57RDoGcsB-AHlXiXVsi4zykORJ21yqhxft9P9O8jQ8r5G0uiRvFLe-KEjMNrBHh27NJoBrbYD-Y5TYq2jQk5sLRv2wGNyPYvPF--UOKY:1sJx61:fhs78t3YEFUzKBQi7UGjAXMADlJaUOJdSGGMl47CdCw",
+    "expire_date": "2024-06-19T15:29:37.188Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2n9mzaleyn79q43s0wf39o7mzxsy9d2e",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAURP-la9NQ6AuX7vmG5j5ai5o2obAy_ruQsNDlzDkzbxFgW3PYWlzCzOIqenH57RDoGcsB-AHlXiXVsi4zykORJ21yqhxft9P9O8jQ8r5G0uiRvFLe-KEjMNrBHh27NJoBrbYD-Y5TYq2jQk5sLRv2wGNyPYvPF--UOKY:1sIdT4:8bpDucxJoqgeZQyokyomVtUTk1MSQyyYLZDNl3kT9VI",
+    "expire_date": "2024-06-16T00:19:58.127Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "55qs3fqgqm0rls0jyp8pnjen8ifl1g8t",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAURP-la9NQ6AuX7vmG5j5ai5o2obAy_ruQsNDlzDkzbxFgW3PYWlzCzOIqenH57RDoGcsB-AHlXiXVsi4zykORJ21yqhxft9P9O8jQ8r5G0uiRvFLe-KEjMNrBHh27NJoBrbYD-Y5TYq2jQk5sLRv2wGNyPYvPF--UOKY:1sJaG0:xVD6ZGCnrdHVUpQfX1iP84Q0zvKKGLhwLSslfHXPOtU",
+    "expire_date": "2024-06-18T15:06:24.790Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "59rv8bjdugewguah2urdrb0zwqbga3zc",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAURP-la9NQ6AuX7vmG5j5ai5o2obAy_ruQsNDlzDkzbxFgW3PYWlzCzOIqenH57RDoGcsB-AHlXiXVsi4zykORJ21yqhxft9P9O8jQ8r5G0uiRvFLe-KEjMNrBHh27NJoBrbYD-Y5TYq2jQk5sLRv2wGNyPYvPF--UOKY:1sJeU7:XrFRTengg2XM7FnWZqtoGe3VJP5zXA6--6fl-ZP64_0",
+    "expire_date": "2024-06-18T19:37:15.826Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "5wgm49x0s3nti1cokg98sah1icqa3ndz",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAURP-la9NQ6AuX7vmG5j5ai5o2obAy_ruQsNDlzDkzbxFgW3PYWlzCzOIqenH57RDoGcsB-AHlXiXVsi4zykORJ21yqhxft9P9O8jQ8r5G0uiRvFLe-KEjMNrBHh27NJoBrbYD-Y5TYq2jQk5sLRv2wGNyPYvPF--UOKY:1sAJUu:slbqYIjmXgY5IzbRbOspkBIR10j4qIe8p-XiIkweXNA",
+    "expire_date": "2024-06-07T01:13:28.102Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6w3pmx7ujl8t3gve238cwbu1f68anz8k",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAURP-la9NQ6AuX7vmG5j5ai5o2obAy_ruQsNDlzDkzbxFgW3PYWlzCzOIqenH57RDoGcsB-AHlXiXVsi4zykORJ21yqhxft9P9O8jQ8r5G0uiRvFLe-KEjMNrBHh27NJoBrbYD-Y5TYq2jQk5sLRv2wGNyPYvPF--UOKY:1sIdoy:IHDnK8uZE1feTrMY2VbUf9BcoTwEj3hBmkCujn18e8A",
+    "expire_date": "2024-06-16T00:42:36.335Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "75m3vz4zn358s57p1dz26adexs0xee5y",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAURP-la9NQ6AuX7vmG5j5ai5o2obAy_ruQsNDlzDkzbxFgW3PYWlzCzOIqenH57RDoGcsB-AHlXiXVsi4zykORJ21yqhxft9P9O8jQ8r5G0uiRvFLe-KEjMNrBHh27NJoBrbYD-Y5TYq2jQk5sLRv2wGNyPYvPF--UOKY:1sK2O7:KwgzAHLa3cYeKMYNwGqkGbi5XFL7lVDPWKRpXz9kuu8",
+    "expire_date": "2024-06-19T21:08:39.020Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8a4nnlt30s14lo9w0t597wnwceelr1sv",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAURP-la9NQ6AuX7vmG5j5ai5o2obAy_ruQsNDlzDkzbxFgW3PYWlzCzOIqenH57RDoGcsB-AHlXiXVsi4zykORJ21yqhxft9P9O8jQ8r5G0uiRvFLe-KEjMNrBHh27NJoBrbYD-Y5TYq2jQk5sLRv2wGNyPYvPF--UOKY:1sIeXr:PeWgWdy6G9RI9TRMILXRwb5JdNlYArat5eYddLugx_w",
+    "expire_date": "2024-06-16T01:28:59.952Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "9obbtpak6xc02mj93qgujpoqxh58ikla",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAUBe_iGlmO45WSnjNYf3FwANlSnFSIu0OkFNC-mXkvkWBbS9p6XtLM4ixGcfrdEOiR6w74DvXWJLW6LjPKXZEH7fLaOD8vh_t3UKCXb63QkgkRwSsbo48jMTDpYSBjeEJFSOzYeaNs0IyswAAxRafRT4GDeH8A9o04wA:1sJlF5:P5dBIWzJGhR0aF78G6Qc-swXkx_0smp_G_SMGLqVIhA",
+    "expire_date": "2024-06-19T02:50:11.974Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "abf7zfvksb76gfup4ix2ousdqj3ymt5u",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAURP-la9NQ6AuX7vmG5j5ai5o2obAy_ruQsNDlzDkzbxFgW3PYWlzCzOIqenH57RDoGcsB-AHlXiXVsi4zykORJ21yqhxft9P9O8jQ8r5G0uiRvFLe-KEjMNrBHh27NJoBrbYD-Y5TYq2jQk5sLRv2wGNyPYvPF--UOKY:1sJK2f:-dv8sO8obHlwj4pU2V27uPUChE3T-7wycLiJzTgt3-w",
+    "expire_date": "2024-06-17T21:47:33.924Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dft9uo58zhsq76bv5j2x3mam26rskeyp",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAURP-la9NQ6AuX7vmG5j5ai5o2obAy_ruQsNDlzDkzbxFgW3PYWlzCzOIqenH57RDoGcsB-AHlXiXVsi4zykORJ21yqhxft9P9O8jQ8r5G0uiRvFLe-KEjMNrBHh27NJoBrbYD-Y5TYq2jQk5sLRv2wGNyPYvPF--UOKY:1sIeZP:tXF80FFQqE7MTMbXB9s_nw9ViDfRf0__3ZQW1N1i26U",
+    "expire_date": "2024-06-16T01:30:35.905Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "dzvhu3wfw2os2bcspxrszeb8m8sb4z84",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAURP-la9NQ6AuX7vmG5j5ai5o2obAy_ruQsNDlzDkzbxFgW3PYWlzCzOIqenH57RDoGcsB-AHlXiXVsi4zykORJ21yqhxft9P9O8jQ8r5G0uiRvFLe-KEjMNrBHh27NJoBrbYD-Y5TYq2jQk5sLRv2wGNyPYvPF--UOKY:1sJz1l:Mxve2-5esdJaJ2gYVp8bEPWCV27EqmbAX-9c58ItnN8",
+    "expire_date": "2024-06-19T17:33:21.786Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ef3tvcbj8ngxr7zfcgawk846dwn5saz3",
+  "fields": {
+    "session_data": "e30:1sJmst:WwI1R8Xlwc9J14wUgD2HsynZhkywGcfgvslAT-KQJ6c",
+    "expire_date": "2024-06-19T04:35:23.793Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "eklsv0hzlsyv7nya0164vz65l6uexkpl",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAURP-la9NQ6AuX7vmG5j5ai5o2obAy_ruQsNDlzDkzbxFgW3PYWlzCzOIqenH57RDoGcsB-AHlXiXVsi4zykORJ21yqhxft9P9O8jQ8r5G0uiRvFLe-KEjMNrBHh27NJoBrbYD-Y5TYq2jQk5sLRv2wGNyPYvPF--UOKY:1sIenD:8V3rjtoxAYApQ5Xh_en734w5qu4oUU0v4dxN9LoYZKw",
+    "expire_date": "2024-06-16T01:44:51.632Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "gweto9uq7z5wdkh2gzfctuvqibkmkjdx",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAURP-la9NQ6AuX7vmG5j5ai5o2obAy_ruQsNDlzDkzbxFgW3PYWlzCzOIqenH57RDoGcsB-AHlXiXVsi4zykORJ21yqhxft9P9O8jQ8r5G0uiRvFLe-KEjMNrBHh27NJoBrbYD-Y5TYq2jQk5sLRv2wGNyPYvPF--UOKY:1sIepW:EvkNLlrZNbUvxgnimaWNVU1cQoSnAzKoLq0aMtmt5Nc",
+    "expire_date": "2024-06-16T01:47:14.553Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "h94hmwwh7ovf3n45qh5w7bkqccsm945l",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAURP-la9NQ6AuX7vmG5j5ai5o2obAy_ruQsNDlzDkzbxFgW3PYWlzCzOIqenH57RDoGcsB-AHlXiXVsi4zykORJ21yqhxft9P9O8jQ8r5G0uiRvFLe-KEjMNrBHh27NJoBrbYD-Y5TYq2jQk5sLRv2wGNyPYvPF--UOKY:1sIbkH:gY2lAgCofiriEDC_1waFRdYereWXksM9k0tuF19jDzg",
+    "expire_date": "2024-06-15T22:29:37.504Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "j0mt9u5w9xx2bm9q3501vbm5g3iobi8b",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAURP-la9NQ6AuX7vmG5j5ai5o2obAy_ruQsNDlzDkzbxFgW3PYWlzCzOIqenH57RDoGcsB-AHlXiXVsi4zykORJ21yqhxft9P9O8jQ8r5G0uiRvFLe-KEjMNrBHh27NJoBrbYD-Y5TYq2jQk5sLRv2wGNyPYvPF--UOKY:1sIhHX:pKSv1c-bI8ltyGCqhvGdza7FOSpR91VRv86UA6MJIgc",
+    "expire_date": "2024-06-16T04:24:19.378Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jba8eaurwhd4j5keoltgzx6h5elye28c",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAURP-la9NQ6AuX7vmG5j5ai5o2obAy_ruQsNDlzDkzbxFgW3PYWlzCzOIqenH57RDoGcsB-AHlXiXVsi4zykORJ21yqhxft9P9O8jQ8r5G0uiRvFLe-KEjMNrBHh27NJoBrbYD-Y5TYq2jQk5sLRv2wGNyPYvPF--UOKY:1sJNKh:ZQ2dAPI_oonEe5n99037Bm3mBOSY3v_fJwsTdzgTOYo",
+    "expire_date": "2024-06-18T01:18:23.022Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jy9r2le8zejajv18tdbcv66gvakkza4p",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAURP-la9NQ6AuX7vmG5j5ai5o2obAy_ruQsNDlzDkzbxFgW3PYWlzCzOIqenH57RDoGcsB-AHlXiXVsi4zykORJ21yqhxft9P9O8jQ8r5G0uiRvFLe-KEjMNrBHh27NJoBrbYD-Y5TYq2jQk5sLRv2wGNyPYvPF--UOKY:1sJJTH:N-Py4QcaZxhFgIntBnSZbGffsKNnoqO9niLPTEqkgnY",
+    "expire_date": "2024-06-17T21:10:59.608Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "m8p9ymjxqayrjsvai2re0b0xe6owozhe",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAURP-la9NQ6AuX7vmG5j5ai5o2obAy_ruQsNDlzDkzbxFgW3PYWlzCzOIqenH57RDoGcsB-AHlXiXVsi4zykORJ21yqhxft9P9O8jQ8r5G0uiRvFLe-KEjMNrBHh27NJoBrbYD-Y5TYq2jQk5sLRv2wGNyPYvPF--UOKY:1sJcDJ:cfPEZt4pZ1EFb8MoxEClqIBRDFfwId0fp1tWUzyyghI",
+    "expire_date": "2024-06-18T17:11:45.816Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "p7r6ssaldm1mzd281zk3zf9rjcx54ytk",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAURP-la9NQ6AuX7vmG5j5ai5o2obAy_ruQsNDlzDkzbxFgW3PYWlzCzOIqenH57RDoGcsB-AHlXiXVsi4zykORJ21yqhxft9P9O8jQ8r5G0uiRvFLe-KEjMNrBHh27NJoBrbYD-Y5TYq2jQk5sLRv2wGNyPYvPF--UOKY:1sJJq4:MYojg6UU4Aq-6iSB0CFJliuSHqtYbnWF8zHKHQ7r0Wo",
+    "expire_date": "2024-06-17T21:34:32.972Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "pekkyyjyaqjk547jv9ind9q387wu3o6p",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAUBe_iGlmO45WSnjNYf3FwANlSnFSIu0OkFNC-mXkvkWBbS9p6XtLM4ixGcfrdEOiR6w74DvXWJLW6LjPKXZEH7fLaOD8vh_t3UKCXb63QkgkRwSsbo48jMTDpYSBjeEJFSOzYeaNs0IyswAAxRafRT4GDeH8A9o04wA:1sJmHB:3hot488u4dWF5_5dK7dB3PCPXqM242S-fFUundtVCV4",
+    "expire_date": "2024-06-19T03:56:25.835Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "rlcwndevxcr9ktnfxigv84yoiekdwfgh",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAUBe_iGlmO45WSnjNYf3FwANlSnFSIu0OkFNC-mXkvkWBbS9p6XtLM4ixGcfrdEOiR6w74DvXWJLW6LjPKXZEH7fLaOD8vh_t3UKCXb63QkgkRwSsbo48jMTDpYSBjeEJFSOzYeaNs0IyswAAxRafRT4GDeH8A9o04wA:1sJm1j:xvDKh76sGmH4Pwf5GWK4PDAFSIaCPSVce9-pQV02h_s",
+    "expire_date": "2024-06-19T03:40:27.795Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tcx1yzd8acon69i50hv0u7m10ta1yr4p",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAURP-la9NQ6AuX7vmG5j5ai5o2obAy_ruQsNDlzDkzbxFgW3PYWlzCzOIqenH57RDoGcsB-AHlXiXVsi4zykORJ21yqhxft9P9O8jQ8r5G0uiRvFLe-KEjMNrBHh27NJoBrbYD-Y5TYq2jQk5sLRv2wGNyPYvPF--UOKY:1sIWxp:YKx42NvpWWEIOMWVQ7YMevK0iFyXYufxWTAmPj90tiY",
+    "expire_date": "2024-06-15T17:23:17.464Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "uwjd7mh6748ndpny8j8ugve2xwz8zfkg",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAURP-la9NQ6AuX7vmG5j5ai5o2obAy_ruQsNDlzDkzbxFgW3PYWlzCzOIqenH57RDoGcsB-AHlXiXVsi4zykORJ21yqhxft9P9O8jQ8r5G0uiRvFLe-KEjMNrBHh27NJoBrbYD-Y5TYq2jQk5sLRv2wGNyPYvPF--UOKY:1sIeM6:nLi8v0N6omxbW-t2RpwxN6rsdIhOpUaWAqfxr2_Oo-Q",
+    "expire_date": "2024-06-16T01:16:50.590Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wg2x570k9stg3loxmslvdn64qtv5ujzz",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAUBe_iGlmO45WSnjNYf3FwANlSnFSIu0OkFNC-mXkvkWBbS9p6XtLM4ixGcfrdEOiR6w74DvXWJLW6LjPKXZEH7fLaOD8vh_t3UKCXb63QkgkRwSsbo48jMTDpYSBjeEJFSOzYeaNs0IyswAAxRafRT4GDeH8A9o04wA:1sJlq3:ZFImuRb50ibxW-3amBDo1ITtSr5I6fzns0pG0DA2N_g",
+    "expire_date": "2024-06-19T03:28:23.450Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yt2kr8ld0yahi7p1rn1ps5lw1mwxhr7r",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAUBe_iGlmO45WSnjNYf3FwANlSnFSIu0OkFNC-mXkvkWBbS9p6XtLM4ixGcfrdEOiR6w74DvXWJLW6LjPKXZEH7fLaOD8vh_t3UKCXb63QkgkRwSsbo48jMTDpYSBjeEJFSOzYeaNs0IyswAAxRafRT4GDeH8A9o04wA:1sJlS1:hLhZkA2xjmnDQI1QMcjZ2YzagbVNIJHoEW8K8-F8ACc",
+    "expire_date": "2024-06-19T03:03:33.993Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "z4tlzyj8i27a7qu77xaw488xuzez4k70",
+  "fields": {
+    "session_data": ".eJxVjDkOwjAUBe_iGlmO45WSnjNYf3FwANlSnFSIu0OkFNC-mXkvkWBbS9p6XtLM4ixGcfrdEOiR6w74DvXWJLW6LjPKXZEH7fLaOD8vh_t3UKCXb63QkgkRwSsbo48jMTDpYSBjeEJFSOzYeaNs0IyswAAxRafRT4GDeH8A9o04wA:1sJld7:yJYzEm65CiIzrxa_4pKRcl5ChESA74yke14VQSjnqIc",
+    "expire_date": "2024-06-19T03:15:01.384Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zaq2flzpokkwdkmiqie9lelptl7vof4o",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAURP-la9NQ6AuX7vmG5j5ai5o2obAy_ruQsNDlzDkzbxFgW3PYWlzCzOIqenH57RDoGcsB-AHlXiXVsi4zykORJ21yqhxft9P9O8jQ8r5G0uiRvFLe-KEjMNrBHh27NJoBrbYD-Y5TYq2jQk5sLRv2wGNyPYvPF--UOKY:1sJar1:oWvuYKhofYPvXBMA9EzaAeixYC11Zz4bEJ2RRmik2Es",
+    "expire_date": "2024-06-18T15:44:39.984Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zm2walsxdvs52ddm31a57pm1sfzynj9w",
+  "fields": {
+    "session_data": ".eJxVjMsOgjAURP-la9NQ6AuX7vmG5j5ai5o2obAy_ruQsNDlzDkzbxFgW3PYWlzCzOIqenH57RDoGcsB-AHlXiXVsi4zykORJ21yqhxft9P9O8jQ8r5G0uiRvFLe-KEjMNrBHh27NJoBrbYD-Y5TYq2jQk5sLRv2wGNyPYvPF--UOKY:1sIejZ:Z_jHqJh4BbakvdI3350XKzmBHbweDHRTObU6PRa0DUo",
+    "expire_date": "2024-06-16T01:41:05.521Z"
+  }
+}
+]

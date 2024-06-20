@@ -11,8 +11,8 @@ Web application for the management of real estate properties, landlords and tena
 Incluir capturas de pantalla o imágenes que muestren el proyecto en funcionamiento.
 
 ![Home] (img/init.png)
-        (img/init-2.png)
-        (img/init-3.png)
+![Home] (img/init-2.png)
+![Home] (img/init-3.png)
 Application home view.
 
 ![Log](img/loging.png)
@@ -60,8 +60,8 @@ Clone the repository using Git:
 ```bash
 # paso 2
 ```
-pip install virtualenv, django, django-environ, Pillow
-pip install -r requirements-inmobiliaria.txt
+- pip install virtualenv, django, django-environ, Pillow
+- pip install -r requirements-inmobiliaria.txt
 
 ## Instructions to Execute the Project
 
@@ -70,14 +70,14 @@ Instructions to run the project once installed.
 ```bash
 # Step 1
 ```
-cd .venv
-cd Scripts
-.\activate
-cd..
-cd..
-cd inmobiliaria
-python .\manage.py runserver
-Starting development server at http://127.0.0.1:8000/
+- cd .venv
+- cd Scripts
+- .\activate
+- cd..
+- cd..
+- cd inmobiliaria
+- python .\manage.py runserver
+- Starting development server at http://127.0.0.1:8000/
 
 ## Instructions for Loading the Database or Migrating Models
 
@@ -86,20 +86,39 @@ Instructions needed to load the database or migrate data models.
 ```bash
 # Step 1
 ```
-config settings.py
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': env('DB_NAME'),
-        'USER': env('DB_USER'),
-        'PASSWORD': env('DB_PASSWORD'),
-        'HOST': env('DB_HOST'),
-        'PORT': env('DB_PORT'),
-    }
-}
-python manage.py makemigrations
-python manage.py migrate
-python manage.py createsuperuser
+- config settings.py
+- DATABASES = {
+-     'default': {
+-         'ENGINE': 'django.db.backends.postgresql',
+-         'NAME': env('DB_NAME'),
+-         'USER': env('DB_USER'),
+-         'PASSWORD': env('DB_PASSWORD'),
+-         'HOST': env('DB_HOST'),
+-         'PORT': env('DB_PORT'),
+-     }
+- }
+- python manage.py makemigrations
+- python manage.py migrate
+
+- Load database
+- python manage.py loaddata db_inmobiliaria.json
+
+## Access credentials
+
+### For Administrator Type User
+
+- admin
+- password: Prueba12
+
+### For tenant User
+
+- Francisco
+- password: Prueba12
+
+### For User
+
+- Javier_Francisco
+- password: Prueba12
 
 ## Author
 
