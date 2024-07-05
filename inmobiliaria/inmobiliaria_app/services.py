@@ -75,7 +75,6 @@ def search_page(form):
             comuna = Comuna.objects.filter(provincia_id=c.id)
         for com in comuna:
             inm = Inmueble.objects.filter(comuna=com.id)
-        print(f'region: {region}, ciudad: {ciudad}, comuna: {comuna}, inm: {inm}')
         return  inm
     
 def solicitud_arriendo(user_id, inm_id):

@@ -58,7 +58,7 @@ Step by step guide on how to set up development environment and install all depe
 Clone the repository using Git:
 
 ```bash
-# paso 2
+# Step 2
 ```
 - pip install virtualenv, django, django-environ, Pillow
 - pip install -r requirements-inmobiliaria.txt

@@ -120,9 +120,9 @@
                         <a href="{% url 'arrendar_inm' %}" class="btn btn-outline-light btn-lg px-5 col-5 fs-6" onclick="return confirm('Estás seguro que deseas arrendar el inmueble?');">Arrendar</a>
                         {% endif %}
                         {% endfor %}
-                        </div>
                         <div class="col-1"></div>
                         <a class="btn btn-outline-light btn-lg px-5 col-4 fs-6" href="{% url 'home' %}">Volver</a>
+                        </div>
                   </div>
                 </div>
             </div>
@@ -132,7 +132,7 @@
                 {% for d in img %}
             <div class="col">
                 <div class="card h-100" style="width: 18rem;">
-                <img src="{{ d.image }}" class="card-img-top" alt="{{ i.titulo }}" height="200" width="200">
+                <img src="{{ d.image.url }}" class="card-img-top" alt="{{ d.titulo }}" height="200" width="200">
                         {% for group in request.user.groups.all %}
                         {% if group.name == 'Arrendatario' %}
                         <div class="card-body">
